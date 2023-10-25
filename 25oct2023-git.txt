@@ -1,0 +1,751 @@
+Microsoft Windows [Version 10.0.19044.1645]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Shiva>dir
+ Volume in drive C has no label.
+ Volume Serial Number is BCAA-EBF1
+
+ Directory of C:\Users\Shiva
+
+25-10-2023  10:01    <DIR>          .
+25-10-2023  10:01    <DIR>          ..
+14-10-2023  16:22               302 .bash_history
+28-08-2023  21:42               190 .gitconfig
+17-10-2023  11:29                20 .lesshst
+12-10-2023  18:22    <DIR>          .ssh
+17-10-2023  10:40             1,295 .viminfo
+23-10-2023  00:37    <DIR>          .VirtualBox
+17-10-2023  20:58    <DIR>          .vscode
+12-06-2021  13:37    <DIR>          3D Objects
+12-06-2021  13:37    <DIR>          Contacts
+10-10-2023  18:29    <DIR>          Desktop
+13-10-2023  11:33    <DIR>          Documents
+23-10-2023  00:27    <DIR>          Downloads
+12-06-2021  13:37    <DIR>          Favorites
+12-06-2021  13:37    <DIR>          Links
+12-06-2021  13:37    <DIR>          Music
+27-08-2023  23:37    <DIR>          myrepo
+14-08-2021  15:31    <DIR>          OneDrive
+11-08-2023  23:43    <DIR>          Pictures
+12-05-2021  13:59                24 README.md
+12-06-2021  13:37    <DIR>          Saved Games
+20-09-2023  11:23    <DIR>          Searches
+17-10-2023  11:39    <DIR>          Shivabng1008
+27-08-2023  22:38    <DIR>          traavelproject
+15-09-2023  18:58    <DIR>          Tracing
+27-08-2023  22:41    <DIR>          travelproject
+23-09-2023  10:16    <DIR>          Videos
+07-09-2023  17:31    <DIR>          VirtualBox VMs
+               5 File(s)          1,831 bytes
+              24 Dir(s)  105,455,722,496 bytes free
+
+C:\Users\Shiva>cd Shivabng1008
+
+C:\Users\Shiva\Shivabng1008>dir
+ Volume in drive C has no label.
+ Volume Serial Number is BCAA-EBF1
+
+ Directory of C:\Users\Shiva\Shivabng1008
+
+17-10-2023  11:39    <DIR>          .
+17-10-2023  11:39    <DIR>          ..
+16-10-2023  11:43                80 16oct2023.txt
+17-10-2023  10:36    <DIR>          17oct2023
+16-10-2023  11:43    <DIR>          abc
+14-10-2023  17:15    <DIR>          omshiva
+17-10-2023  11:25    <DIR>          simplex
+17-10-2023  11:39    <DIR>          simplex2
+               1 File(s)             80 bytes
+               7 Dir(s)  105,454,542,848 bytes free
+
+C:\Users\Shiva\Shivabng1008>git clone https://github.com/Shivabng1008/abcd.git
+Cloning into 'abcd'...
+warning: You appear to have cloned an empty repository.
+
+C:\Users\Shiva\Shivabng1008>dir
+ Volume in drive C has no label.
+ Volume Serial Number is BCAA-EBF1
+
+ Directory of C:\Users\Shiva\Shivabng1008
+
+25-10-2023  10:19    <DIR>          .
+25-10-2023  10:19    <DIR>          ..
+16-10-2023  11:43                80 16oct2023.txt
+17-10-2023  10:36    <DIR>          17oct2023
+16-10-2023  11:43    <DIR>          abc
+25-10-2023  10:19    <DIR>          abcd
+14-10-2023  17:15    <DIR>          omshiva
+17-10-2023  11:25    <DIR>          simplex
+17-10-2023  11:39    <DIR>          simplex2
+               1 File(s)             80 bytes
+               8 Dir(s)  105,449,893,888 bytes free
+
+C:\Users\Shiva\Shivabng1008>cd abcd
+
+C:\Users\Shiva\Shivabng1008\abcd>dir
+ Volume in drive C has no label.
+ Volume Serial Number is BCAA-EBF1
+
+ Directory of C:\Users\Shiva\Shivabng1008\abcd
+
+25-10-2023  10:19    <DIR>          .
+25-10-2023  10:19    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  105,449,500,672 bytes free
+
+C:\Users\Shiva\Shivabng1008\abcd>dir
+ Volume in drive C has no label.
+ Volume Serial Number is BCAA-EBF1
+
+ Directory of C:\Users\Shiva\Shivabng1008\abcd
+
+25-10-2023  10:21    <DIR>          .
+25-10-2023  10:21    <DIR>          ..
+18-06-2021  13:44           695,781 AWS_Day1.pdf
+18-06-2021  13:46           440,799 AWS_Day3.pdf
+18-06-2021  13:46           415,318 AWS_Day4.pdf
+18-06-2021  13:45           517,091 AWS_Day_2.pdf
+               4 File(s)      2,068,989 bytes
+               2 Dir(s)  105,444,655,104 bytes free
+
+C:\Users\Shiva\Shivabng1008\abcd>gid add AWS_Day_1.pdf
+'gid' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Shiva\Shivabng1008\abcd>git add AWS_Day_1.pdf
+fatal: pathspec 'AWS_Day_1.pdf' did not match any files
+
+C:\Users\Shiva\Shivabng1008\abcd>git add .
+
+C:\Users\Shiva\Shivabng1008\abcd>dir
+ Volume in drive C has no label.
+ Volume Serial Number is BCAA-EBF1
+
+ Directory of C:\Users\Shiva\Shivabng1008\abcd
+
+25-10-2023  10:21    <DIR>          .
+25-10-2023  10:21    <DIR>          ..
+18-06-2021  13:44           695,781 AWS_Day1.pdf
+18-06-2021  13:46           440,799 AWS_Day3.pdf
+18-06-2021  13:46           415,318 AWS_Day4.pdf
+18-06-2021  13:45           517,091 AWS_Day_2.pdf
+               4 File(s)      2,068,989 bytes
+               2 Dir(s)  105,433,473,024 bytes free
+
+C:\Users\Shiva\Shivabng1008\abcd>git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   AWS_Day1.pdf
+        new file:   AWS_Day3.pdf
+        new file:   AWS_Day4.pdf
+        new file:   AWS_Day_2.pdf
+
+
+C:\Users\Shiva\Shivabng1008\abcd>dir
+ Volume in drive C has no label.
+ Volume Serial Number is BCAA-EBF1
+
+ Directory of C:\Users\Shiva\Shivabng1008\abcd
+
+25-10-2023  10:25    <DIR>          .
+25-10-2023  10:25    <DIR>          ..
+18-06-2021  13:44           695,781 AWS_Day1.pdf
+18-06-2021  13:46           440,799 AWS_Day3.pdf
+18-06-2021  13:46           415,318 AWS_Day4.pdf
+18-06-2021  13:45           517,091 AWS_Day_2.pdf
+25-10-2023  10:25                15 okgood.txt
+               5 File(s)      2,069,004 bytes
+               2 Dir(s)  105,430,204,416 bytes free
+
+C:\Users\Shiva\Shivabng1008\abcd>git add okgood.txt
+
+C:\Users\Shiva\Shivabng1008\abcd>git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   AWS_Day1.pdf
+        new file:   AWS_Day3.pdf
+        new file:   AWS_Day4.pdf
+        new file:   AWS_Day_2.pdf
+        new file:   okgood.txt
+
+
+C:\Users\Shiva\Shivabng1008\abcd>git commit -m "okgood"
+[main (root-commit) 4c6ce51] okgood
+ 5 files changed, 1 insertion(+)
+ create mode 100644 AWS_Day1.pdf
+ create mode 100644 AWS_Day3.pdf
+ create mode 100644 AWS_Day4.pdf
+ create mode 100644 AWS_Day_2.pdf
+ create mode 100644 okgood.txt
+
+C:\Users\Shiva\Shivabng1008\abcd>git
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+C:\Users\Shiva\Shivabng1008\abcd>git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 1.68 MiB | 1.21 MiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Shivabng1008/abcd.git
+ * [new branch]      main -> main
+
+C:\Users\Shiva\Shivabng1008\abcd>fit
+'fit' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Shiva\Shivabng1008\abcd>dir
+ Volume in drive C has no label.
+ Volume Serial Number is BCAA-EBF1
+
+ Directory of C:\Users\Shiva\Shivabng1008\abcd
+
+25-10-2023  10:27    <DIR>          .
+25-10-2023  10:27    <DIR>          ..
+18-06-2021  13:44           695,781 AWS_Day1.pdf
+18-06-2021  13:46           440,799 AWS_Day3.pdf
+18-06-2021  13:46           415,318 AWS_Day4.pdf
+18-06-2021  13:45           517,091 AWS_Day_2.pdf
+25-10-2023  10:25                15 okgood.txt
+25-10-2023  10:27                15 okgood2.txt
+               6 File(s)      2,069,019 bytes
+               2 Dir(s)  105,425,444,864 bytes free
+
+C:\Users\Shiva\Shivabng1008\abcd>git add okgood2.txt
+
+C:\Users\Shiva\Shivabng1008\abcd>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   okgood2.txt
+
+
+C:\Users\Shiva\Shivabng1008\abcd>git commit -m "okgood2"
+[main 23b2a3d] okgood2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 okgood2.txt
+
+C:\Users\Shiva\Shivabng1008\abcd>git push okgood2.txt
+fatal: invalid gitfile format: okgood2.txt
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\Shiva\Shivabng1008\abcd>git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\Shiva\Shivabng1008\abcd>git push
+To https://github.com/Shivabng1008/abcd.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/Shivabng1008/abcd.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\Shiva\Shivabng1008\abcd>git fetch
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 1.21 MiB | 2.02 MiB/s, done.
+From https://github.com/Shivabng1008/abcd
+   4c6ce51..9612f75  main       -> origin/main
+
+C:\Users\Shiva\Shivabng1008\abcd>git status
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" if you want to integrate the remote branch with yours)
+
+nothing to commit, working tree clean
+
+C:\Users\Shiva\Shivabng1008\abcd>git pull
+Merge made by the 'ort' strategy.
+ Challlakere.pdf | Bin 0 -> 1370635 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Challlakere.pdf
+
+C:\Users\Shiva\Shivabng1008\abcd>git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\Shiva\Shivabng1008\abcd>git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 500 bytes | 125.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/Shivabng1008/abcd.git
+   9612f75..62e01aa  main -> main
+
+C:\Users\Shiva\Shivabng1008\abcd>git swith dev
+git: 'swith' is not a git command. See 'git --help'.
+
+The most similar command is
+        switch
+
+C:\Users\Shiva\Shivabng1008\abcd>git chekout shivdev
+git: 'chekout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+C:\Users\Shiva\Shivabng1008\abcd>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\Shiva\Shivabng1008\abcd>git checkout shivadev
+error: pathspec 'shivadev' did not match any file(s) known to git
+
+C:\Users\Shiva\Shivabng1008\abcd>git checkout
+Your branch is up to date with 'origin/main'.
+
+C:\Users\Shiva\Shivabng1008\abcd>git checkout dev
+error: pathspec 'dev' did not match any file(s) known to git
+
+C:\Users\Shiva\Shivabng1008\abcd>git switchover shivadev
+git: 'switchover' is not a git command. See 'git --help'.
+
+C:\Users\Shiva\Shivabng1008\abcd>git --help
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+C:\Users\Shiva\Shivabng1008\abcd>help
+For more information on a specific command, type HELP command-name
+ASSOC          Displays or modifies file extension associations.
+ATTRIB         Displays or changes file attributes.
+BREAK          Sets or clears extended CTRL+C checking.
+BCDEDIT        Sets properties in boot database to control boot loading.
+CACLS          Displays or modifies access control lists (ACLs) of files.
+CALL           Calls one batch program from another.
+CD             Displays the name of or changes the current directory.
+CHCP           Displays or sets the active code page number.
+CHDIR          Displays the name of or changes the current directory.
+CHKDSK         Checks a disk and displays a status report.
+CHKNTFS        Displays or modifies the checking of disk at boot time.
+CLS            Clears the screen.
+CMD            Starts a new instance of the Windows command interpreter.
+COLOR          Sets the default console foreground and background colors.
+COMP           Compares the contents of two files or sets of files.
+COMPACT        Displays or alters the compression of files on NTFS partitions.
+CONVERT        Converts FAT volumes to NTFS.  You cannot convert the
+               current drive.
+COPY           Copies one or more files to another location.
+DATE           Displays or sets the date.
+DEL            Deletes one or more files.
+DIR            Displays a list of files and subdirectories in a directory.
+DISKPART       Displays or configures Disk Partition properties.
+DOSKEY         Edits command lines, recalls Windows commands, and
+               creates macros.
+DRIVERQUERY    Displays current device driver status and properties.
+ECHO           Displays messages, or turns command echoing on or off.
+ENDLOCAL       Ends localization of environment changes in a batch file.
+ERASE          Deletes one or more files.
+EXIT           Quits the CMD.EXE program (command interpreter).
+FC             Compares two files or sets of files, and displays the
+               differences between them.
+FIND           Searches for a text string in a file or files.
+FINDSTR        Searches for strings in files.
+FOR            Runs a specified command for each file in a set of files.
+FORMAT         Formats a disk for use with Windows.
+FSUTIL         Displays or configures the file system properties.
+FTYPE          Displays or modifies file types used in file extension
+               associations.
+GOTO           Directs the Windows command interpreter to a labeled line in
+               a batch program.
+GPRESULT       Displays Group Policy information for machine or user.
+GRAFTABL       Enables Windows to display an extended character set in
+               graphics mode.
+HELP           Provides Help information for Windows commands.
+ICACLS         Display, modify, backup, or restore ACLs for files and
+               directories.
+IF             Performs conditional processing in batch programs.
+LABEL          Creates, changes, or deletes the volume label of a disk.
+MD             Creates a directory.
+MKDIR          Creates a directory.
+MKLINK         Creates Symbolic Links and Hard Links
+MODE           Configures a system device.
+MORE           Displays output one screen at a time.
+MOVE           Moves one or more files from one directory to another
+               directory.
+OPENFILES      Displays files opened by remote users for a file share.
+PATH           Displays or sets a search path for executable files.
+PAUSE          Suspends processing of a batch file and displays a message.
+POPD           Restores the previous value of the current directory saved by
+               PUSHD.
+PRINT          Prints a text file.
+PROMPT         Changes the Windows command prompt.
+PUSHD          Saves the current directory then changes it.
+RD             Removes a directory.
+RECOVER        Recovers readable information from a bad or defective disk.
+REM            Records comments (remarks) in batch files or CONFIG.SYS.
+REN            Renames a file or files.
+RENAME         Renames a file or files.
+REPLACE        Replaces files.
+RMDIR          Removes a directory.
+ROBOCOPY       Advanced utility to copy files and directory trees
+SET            Displays, sets, or removes Windows environment variables.
+SETLOCAL       Begins localization of environment changes in a batch file.
+SC             Displays or configures services (background processes).
+SCHTASKS       Schedules commands and programs to run on a computer.
+SHIFT          Shifts the position of replaceable parameters in batch files.
+SHUTDOWN       Allows proper local or remote shutdown of machine.
+SORT           Sorts input.
+START          Starts a separate window to run a specified program or command.
+SUBST          Associates a path with a drive letter.
+SYSTEMINFO     Displays machine specific properties and configuration.
+TASKLIST       Displays all currently running tasks including services.
+TASKKILL       Kill or stop a running process or application.
+TIME           Displays or sets the system time.
+TITLE          Sets the window title for a CMD.EXE session.
+TREE           Graphically displays the directory structure of a drive or
+               path.
+TYPE           Displays the contents of a text file.
+VER            Displays the Windows version.
+VERIFY         Tells Windows whether to verify that your files are written
+               correctly to a disk.
+VOL            Displays a disk volume label and serial number.
+XCOPY          Copies files and directory trees.
+WMIC           Displays WMI information inside interactive command shell.
+
+For more information on tools see the command-line reference in the online help.
+
+C:\Users\Shiva\Shivabng1008\abcd>git switch devshiva
+fatal: invalid reference: devshiva
+
+C:\Users\Shiva\Shivabng1008\abcd>git switch dev
+fatal: invalid reference: dev
+
+C:\Users\Shiva\Shivabng1008\abcd>git checkout shivaabc
+error: pathspec 'shivaabc' did not match any file(s) known to git
+
+C:\Users\Shiva\Shivabng1008\abcd>git checkout dev
+error: pathspec 'dev' did not match any file(s) known to git
+
+C:\Users\Shiva\Shivabng1008\abcd>git branch
+* main
+
+C:\Users\Shiva\Shivabng1008\abcd>git checkout
+Your branch is up to date with 'origin/main'.
+
+C:\Users\Shiva\Shivabng1008\abcd>git checkout feature_inprogress_branch
+error: pathspec 'feature_inprogress_branch' did not match any file(s) known to git
+
+C:\Users\Shiva\Shivabng1008\abcd>git checkout dev
+error: pathspec 'dev' did not match any file(s) known to git
+
+C:\Users\Shiva\Shivabng1008\abcd>git pull
+From https://github.com/Shivabng1008/abcd
+ * [new branch]      dev        -> origin/dev
+ * [new branch]      prod       -> origin/prod
+Already up to date.
+
+C:\Users\Shiva\Shivabng1008\abcd>git branch
+* main
+
+C:\Users\Shiva\Shivabng1008\abcd>git branch --all
+* main
+  remotes/origin/dev
+  remotes/origin/main
+  remotes/origin/prod
+
+C:\Users\Shiva\Shivabng1008\abcd>dir
+ Volume in drive C has no label.
+ Volume Serial Number is BCAA-EBF1
+
+ Directory of C:\Users\Shiva\Shivabng1008\abcd
+
+25-10-2023  10:33    <DIR>          .
+25-10-2023  10:33    <DIR>          ..
+18-06-2021  13:44           695,781 AWS_Day1.pdf
+18-06-2021  13:46           440,799 AWS_Day3.pdf
+18-06-2021  13:46           415,318 AWS_Day4.pdf
+18-06-2021  13:45           517,091 AWS_Day_2.pdf
+25-10-2023  10:33         1,370,635 Challlakere.pdf
+25-10-2023  10:25                15 okgood.txt
+25-10-2023  10:46                66 okgood2.txt
+               7 File(s)      3,439,705 bytes
+               2 Dir(s)  105,392,668,672 bytes free
+
+C:\Users\Shiva\Shivabng1008\abcd>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   okgood2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Shiva\Shivabng1008\abcd>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+C:\Users\Shiva\Shivabng1008\abcd>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+C:\Users\Shiva\Shivabng1008\abcd>git add .
+
+C:\Users\Shiva\Shivabng1008\abcd>git commit -m "okgood"
+[main 4f1d72a] okgood
+ 1 file changed, 3 insertions(+)
+
+C:\Users\Shiva\Shivabng1008\abcd>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 273 bytes | 273.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Shivabng1008/abcd.git
+   62e01aa..4f1d72a  main -> main
+
+C:\Users\Shiva\Shivabng1008\abcd>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\Shiva\Shivabng1008\abcd>git branch
+* main
+
+C:\Users\Shiva\Shivabng1008\abcd>git checkout
+Your branch is up to date with 'origin/main'.
+
+C:\Users\Shiva\Shivabng1008\abcd>git checkout dev
+Switched to a new branch 'dev'
+branch 'dev' set up to track 'origin/dev'.
+
+C:\Users\Shiva\Shivabng1008\abcd>git branch
+* dev
+  main
+
+C:\Users\Shiva\Shivabng1008\abcd>git checkout dev1
+error: pathspec 'dev1' did not match any file(s) known to git
+
+C:\Users\Shiva\Shivabng1008\abcd>git merge main
+Updating 62e01aa..4f1d72a
+Fast-forward
+ okgood2.txt | 3 +++
+ 1 file changed, 3 insertions(+)
+
+C:\Users\Shiva\Shivabng1008\abcd>git merge main
+Already up to date.
+
+C:\Users\Shiva\Shivabng1008\abcd>git branch
+* dev
+  main
+
+C:\Users\Shiva\Shivabng1008\abcd>git checkout shiva
+error: pathspec 'shiva' did not match any file(s) known to git
+
+C:\Users\Shiva\Shivabng1008\abcd>
+C:\Users\Shiva\Shivabng1008\abcd>
+C:\Users\Shiva\Shivabng1008\abcd>
+C:\Users\Shiva\Shivabng1008\abcd>git
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+C:\Users\Shiva\Shivabng1008\abcd>git branch shiva123
+
+C:\Users\Shiva\Shivabng1008\abcd>git branch --all
+* dev
+  main
+  shiva123
+  remotes/origin/dev
+  remotes/origin/main
+  remotes/origin/prod
+
+C:\Users\Shiva\Shivabng1008\abcd>git checkout shiva123
+Switched to branch 'shiva123'
+
+C:\Users\Shiva\Shivabng1008\abcd>git branch
+  dev
+  main
+* shiva123
+
+C:\Users\Shiva\Shivabng1008\abcd>git  branch dev
+fatal: a branch named 'dev' already exists
+
+C:\Users\Shiva\Shivabng1008\abcd>git checkout dev
+Switched to branch 'dev'
+Your branch is ahead of 'origin/dev' by 1 commit.
+  (use "git push" to publish your local commits)
+
+C:\Users\Shiva\Shivabng1008\abcd>git brach
+git: 'brach' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+
+C:\Users\Shiva\Shivabng1008\abcd>git brach
+git: 'brach' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+
+C:\Users\Shiva\Shivabng1008\abcd>git branch
+* dev
+  main
+  shiva123
+
+C:\Users\Shiva\Shivabng1008\abcd>
